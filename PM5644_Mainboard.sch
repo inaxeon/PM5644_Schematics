@@ -285,8 +285,8 @@ Wire Wire Line
 	17400 3975 17400 3900
 Connection ~ 16800 3400
 Wire Wire Line
-	16025 3200 16275 3200
-Text Label 16100 3200 0    50   ~ 0
+	16025 3100 16275 3100
+Text Label 16100 3100 0    50   ~ 0
 A16
 Wire Wire Line
 	2400 6550 2675 6550
@@ -385,11 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 3000 11225 3000
 Entry Wire Line
-	16275 3200 16375 3100
-Wire Bus Line
-	16375 3100 16375 1250
-Wire Bus Line
-	14600 1250 16375 1250
+	16275 3100 16375 3000
 Wire Wire Line
 	12225 2500 12475 2500
 Wire Wire Line
@@ -451,9 +447,6 @@ Entry Wire Line
 	16525 2400 16625 2500
 Entry Wire Line
 	16525 2500 16625 2600
-Wire Bus Line
-	16525 1250 16375 1250
-Connection ~ 16375 1250
 Text Notes 8400 1000 0    50   ~ 0
 TODO:\nCHECK FOR GROUNDED PINS ON PALS\nCHECK FOR OPEN PINS ON PALS
 $Comp
@@ -1815,6 +1808,15 @@ Wire Notes Line
 Connection ~ 4300 1550
 Connection ~ 7300 1250
 Wire Bus Line
+	14600 1250 16375 1250
+Wire Bus Line
+	16375 3000 16375 1250
+Connection ~ 16375 1250
+Wire Bus Line
+	16375 1250 16525 1250
+Wire Wire Line
+	16025 3300 16250 3300
+Wire Bus Line
 	4000 4325 4000 5650
 Wire Bus Line
 	16525 1250 16525 2500
@@ -1846,4 +1848,6 @@ Wire Bus Line
 	4250 4225 4250 6750
 Wire Bus Line
 	1000 4225 1000 6750
+Text Label 16100 3300 0    50   ~ 0
+P5
 $EndSCHEMATC
