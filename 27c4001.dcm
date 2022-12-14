@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 27512
+D UV Erasable EPROM 512 KiBit, [Obsolete 2007-01]
+K Erasable EPROM 512KiBit
+F http://pdf.datasheetcatalog.com/datasheets/120/227190_DS.pdf
+$ENDCMP
+#
+$CMP 27C4001
+D OTP EPROM 4MBit
+K OTP EPROM 4MBit
+$ENDCMP
+#
+#End Doc Library
